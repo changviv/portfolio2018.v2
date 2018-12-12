@@ -1,18 +1,95 @@
 body {
-  /*font-family: 'Roboto', sans-serif;*/
   overflow: hidden;
 }
 
 html,
 body {
+  /*background-color: changs this color;*/
   height: 100%;
+  margin: 0;
+  background-color:  #FC6969;
 }
 
-.landing-page-div {
-	text-align: center;
+h2, h3 {
+  font-size: 5.25rem;
+  margin: 30px 0;
 }
 
 .landing-page {
+  width: 100%;
+  height: 100%;
+  font-family: 'Amatic SC', cursive;
+}
+
+/*.container {
+  margin-left: 0;
+  margin-right: 0;
+}*/
+
+/*.about-me {
+  font-family: 'Josefin Slab', serif;
+  width: 100%;
+  height: 100%;
+}*/
+
+/*you'll need to fix this but once you have your photo done*/
+.about-one {
+  color: black;
+}
+
+.about-two {
+  background-color: #23001E;
+}
+
+.landing-page {
+  background-color:  #FC6969;
+  /*background-color: change this color;*/
+  text-align: center;
+  color: white;
+}
+
+#last-intro {
+  color: #FFBA49;
+}
+
+/*#time {
+  margin-top: 0;
+  margin-bottom: 0;
+}*/
+
+.fas {
+  font-size: 2.8rem;
+  color: white;
+}
+
+
+/*TODO: FIX ARROW*/
+/*.down {
+  position: absolute;
+  display: table;
+  width: 100px;
+  height: 50px;
+  background: rgba(175, 175, 175, 0.2);
+  left: 50%;
+  bottom: 0;
+  margin-left: -50px;
+  border-radius: 50px 50px 0 0px;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.down i {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  -webkit-animation: down 1.8s infinite;
+  animation: down 1.8s infinite;
+}*/
+
+/*.landing-page {
   background-image: url(../images/bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -33,4 +110,4 @@ body {
   background: #000;
   opacity: 0.85;
   z-index: 1;
-}
+}*/

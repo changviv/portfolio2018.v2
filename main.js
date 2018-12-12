@@ -1,7 +1,7 @@
 let now = new Date();
 now = now.toString()
 
-var idArr = ["Full Stack Engineer", "Dog Lover", "Coffee Addict", "Plant Killer", "Pasta Connieuseur"]
+var idArr = ["Dog Mom", "Coffee Addict", "Plant Killer", "Pasta Connoisseur", "Full Stack Engineer"]
 
 $(document).ready(function () {
 	welcomeUser(now);
