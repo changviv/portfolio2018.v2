@@ -1,20 +1,12 @@
-let now = new Date();
-now = now.toString()
-
 var idArr = ["Dog Mom", "Coffee Addict", "Plant Killer", "Pasta Connoisseur", "Full Stack Engineer"]
 
 $(document).ready(function () {
 	welcomeUser(now);
-	var timer = setInterval(myTimer, 1000);
 	var idTimer = setInterval(changeID, 2000);
-
-	function myTimer() {
-	    var d = new Date();
-	    var t = d.toLocaleTimeString();
-	    document.getElementById("time").innerHTML = t;
-	}
 });
 
+let now = new Date();
+now = now.toString()
 
 function welcomeUser(now) {
 	let hour = parseInt(now.slice(16,18))
@@ -27,8 +19,6 @@ function welcomeUser(now) {
 	}
 	$("#welcome-line").text(welcome)
 };
-
-welcomeUser(now);
 
 let index = 0
 
