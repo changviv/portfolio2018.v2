@@ -1,8 +1,7 @@
-var idArr = ["Dog Mom", "Coffee Addict", "Plant Killer", "Pasta Connoisseur", "Full Stack Engineer"]
-
 $(document).ready(function () {
 	welcomeUser(now);
 	var idTimer = setInterval(changeID, 2000);
+	$("#about").hide()
 });
 
 let now = new Date();
@@ -22,12 +21,21 @@ function welcomeUser(now) {
 
 let index = 0
 
+var idArr = ["Dog Mom", "Coffee Addict", "Plant Killer", "Pasta Connoisseur", "Full Stack Engineer"]
+
 function changeID() {
 	document.getElementById("person-id").innerHTML = idArr[index];
 	index++
-	console.log(index)
 
 	if (index === idArr.length) {
 		index = 0
 	}
 }
+
+$("#arrow-icon").on("click", function() {
+	alert("I've been clicked")
+	$("#about").show()
+})
+
+
+
